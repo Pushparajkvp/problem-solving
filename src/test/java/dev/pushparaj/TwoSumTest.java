@@ -1,9 +1,9 @@
 package dev.pushparaj;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-public class TwoSumTest {
+public class TwoSumTest extends BaseTest{
     @Test 
     public void testTwoSumExampleCases() {
         TwoSum twoSum = new TwoSum();

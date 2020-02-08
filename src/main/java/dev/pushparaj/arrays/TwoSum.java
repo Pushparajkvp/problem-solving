@@ -1,4 +1,4 @@
-package dev.pushparaj;
+package dev.pushparaj.arrays;
 
 import java.util.HashMap;
 /*

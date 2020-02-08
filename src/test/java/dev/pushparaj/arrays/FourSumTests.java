@@ -1,4 +1,4 @@
-package dev.pushparaj;
+package dev.pushparaj.arrays;
 
 import java.util.*;
 import org.junit.jupiter.api.*;

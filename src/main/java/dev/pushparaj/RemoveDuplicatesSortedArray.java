@@ -10,6 +10,14 @@ import java.util.*;
 public class RemoveDuplicatesSortedArray {
 
     public int removeDuplicates(int[] nums) {
-        
+        if(nums.length == 0) return 0;
+        int counter = 1, replaceIterator = 0;
+        for(int it = 1; it < nums.length; it++) {
+            if(nums[replaceIterator] != nums[it]) {
+                replaceIterator++;
+                nums[replaceIterator] = nums[it];
+            }
+        }
+        return replaceIterator + 1;
     }
 }

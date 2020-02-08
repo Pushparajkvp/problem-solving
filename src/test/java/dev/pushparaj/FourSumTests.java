@@ -32,8 +32,6 @@ public class FourSumTests extends BaseTest {
         expectedOutput.add(two);
         expectedOutput.add(three);
         List<List<Integer>> actualOutput = obj.fourSum(new int[]{1, 0, -1, 0, -2, 2}, 0);
-        System.out.println(expectedOutput);
-        System.out.println(actualOutput);
         assertTrue(isEqual(expectedOutput, actualOutput));
     }
 }

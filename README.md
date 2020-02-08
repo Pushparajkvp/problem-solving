@@ -15,4 +15,11 @@
         1. Space Complexsity - O(1)
     1. [3 Sum Closest](src/main/java/dev/pushparaj/ThreeSumClosest.java)
         1. Time Complexity - O(n^2)
-        1. Space Complexisty - O(1)
+        1. Space Complexity - O(1)
+    1. [4 Sum](src/main/java/dev/pushparaj/FourSum.java)
+        1. Time Complexity - O(n^3)
+        1. Space Complexity - O(1)
+    1. [Remove Duplicates Sorted Array](src/main/java/dev/pushparaj/RemoveDuplicatesSortedArray.java)
+        1. Time Complexity - O(n)
+        1. Space Complexity - O(1)
+

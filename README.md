@@ -13,3 +13,6 @@
     1. [3 Sum](src/main/java/dev/pushparaj/ThreeSum.java)
         1. Time Complexity - O(n^2)
         1. Space Complexsity - O(1)
+    1. [3 Sum Closest](src/main/java/dev/pushparaj/ThreeSumClosest.java)
+        1. Time Complexity - O(n^2)
+        1. Space Complexisty - O(1)

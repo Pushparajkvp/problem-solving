@@ -21,9 +21,6 @@ public class ThreeSumTests extends BaseTest {
         expectedOutput.add(one);
         expectedOutput.add(two);
         List<List<Integer>> actualOutput = obj.threeSum(new int[]{-1, 0, 1, 2, -1, -4});
-        
-        for(int it = 0; it < expectedOutput.size(); it++){
-            //assertTrue(expectedOutput.get(it).equals(actualOutput.get(it)));
-        }
+        assertTrue(isEqual(expectedOutput, actualOutput));
     }
 }

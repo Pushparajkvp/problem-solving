@@ -3,6 +3,7 @@ package dev.pushparaj.arrays;
 import java.util.*;
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
+import dev.pushparaj.BaseTest;
 
 public class FourSumTests extends BaseTest {
 

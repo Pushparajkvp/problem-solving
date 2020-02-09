@@ -34,3 +34,6 @@
     1. [Find First And Last Index In Sorted Array](src/main/java/dev/pushparaj/arrays/FirstAndLastPositionInSortedArray.java)
         1. Time Complexity - O(logn)
         1. Space Complexity - O(1)
+    1. [Search Insert Position](src/main/java/dev/pushparaj/arrays/SearchInsertPosition.java)
+        1. Time Complexity - O(logn)
+        1. Space Complexity - O(1)

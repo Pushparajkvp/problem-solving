@@ -31,3 +31,6 @@
     1. [Search In Rotated Sorted Array](src/main/java/dev/pushparaj/arrays/SearchInRotatedSortedArray)
         1. Time Complexity - O(logn)
         1. Space Complexity - O(1)
+    1. [Find First And Last Index In Sorted Array](src/main/java/dev/pushparaj/arrays/FirstAndLastPositionInSortedArray.java)
+        1. Time Complexity - O(logn)
+        1. Space Complexity - O(1)

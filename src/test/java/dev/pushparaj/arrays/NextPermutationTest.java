@@ -12,7 +12,6 @@ public class NextPermutationTest extends BaseTest {
         NextPermutation obj = new NextPermutation();
         int[] output = new int[]{1,2,3};
         obj.nextPermutation(output);
-        System.out.println(Arrays.toString(output));
         assertTrue(Arrays.equals(new int[]{1,3,2}, output));
         output = new int[]{3,2,1};
         obj.nextPermutation(output);

@@ -37,7 +37,13 @@
     1. [Search Insert Position](src/main/java/dev/pushparaj/arrays/SearchInsertPosition.java)
         1. Time Complexity - O(logn)
         1. Space Complexity - O(1)
-    1. [Combination Sum With Repetition]()
+    1. [Combination Sum With Repetition](src/main/java/dev/pushparaj/arrays/CombinationSumWithRepetition.java)
         1. Time Complexity - O(n^(n/2))
         1. Space Complexisty -
-
+1. Sorting
+    1. [Selection Sort](src/main/java/dev/pushparaj/sorting/SelectionSort.java)
+        1. In place
+        1. Stable
+        1. Best case - O(n^2)
+        1. Average Case - O(n^2)
+        1. Worst Case - O(n^2)

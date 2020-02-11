@@ -11,6 +11,7 @@ public class SortingTest extends BaseTest {
 
     int[] one, two, three, four, five, six;
     int[] sortedOne, sortedTwo, sortedThree, sortedFour, sortedFive, sortedSix;
+    
     @BeforeEach
     public void setup() {
         one = getRandomNumberArray(-200, 200, getRandomNumber(0, 50));
@@ -53,5 +54,14 @@ public class SortingTest extends BaseTest {
         SelectionSort.sort(sortedSix);
     }
 
+    @Test
+    public void insertionSort() {
+        InsertionSort.sort(sortedOne);
+        InsertionSort.sort(sortedTwo);
+        InsertionSort.sort(sortedThree);
+        InsertionSort.sort(sortedFour);
+        InsertionSort.sort(sortedFive);
+        InsertionSort.sort(sortedSix);
+    }
     
 }

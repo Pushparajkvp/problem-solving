@@ -63,5 +63,25 @@ public class SortingTest extends BaseTest {
         InsertionSort.sort(sortedFive);
         InsertionSort.sort(sortedSix);
     }
+
+    @Test
+    public void bubbleSort() {
+        BubbleSort.sort(sortedOne);
+        BubbleSort.sort(sortedTwo);
+        BubbleSort.sort(sortedThree);
+        BubbleSort.sort(sortedFour);
+        BubbleSort.sort(sortedFive);
+        BubbleSort.sort(sortedSix);
+    }
+
+    @Test
+    public void shellSort() {
+        ShellSort.sort(sortedOne);
+        ShellSort.sort(sortedTwo);
+        ShellSort.sort(sortedThree);
+        ShellSort.sort(sortedFour);
+        ShellSort.sort(sortedFive);
+        ShellSort.sort(sortedSix);
+    }
     
 }

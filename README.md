@@ -43,12 +43,27 @@
 1. Sorting
     1. [Selection Sort](src/main/java/dev/pushparaj/sorting/SelectionSort.java)
         1. In place
-        1. Best case - O(n^2)
-        1. Average Case - O(n^2)
-        1. Worst Case - O(n^2)
+        1. Not stable
+        1. Best case - O(1/2 * n^2)
+        1. Average Case - O(1/2 * n^2)
+        1. Worst Case - O(1/2 * n^2)
     1. [Insertion Sort](src/main/java/dev/pushparaj/sorting/InsertionSort.java)
+        1. In Place
+        1. Stable
+        1. Best Case - O(n)
+        1. Average Case - O(1/4 * n^2)
+        1. Worst Case - O(1/2 * n^2)
+        1. Use for small or partially sorted arrays
+    1. [Bubble Sort](src/main/java/dev/pushparaj/sorting/BubbleSort.java)
         1. In Place
         1. Stable
         1. Best Case - O(n)
         1. Average Case - O(1/2 * n^2)
         1. Worst Case - O(1/2 * n^2)
+        1. Rarely used, insertion sort can be preferred
+    1. [Shell Sort](src/main/java/dev/pushparaj/sorting/ShellSort.java)
+        1. In Place
+        1. Stable
+        1. Best Case - O(nlogn)
+        1. Average - O(nlogn)
+        1. Worst - O(n^2)

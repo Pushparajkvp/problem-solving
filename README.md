@@ -67,3 +67,16 @@
         1. Best Case - O(nlogn)
         1. Average - O(nlogn)
         1. Worst - O(n^2)
+    1. [Merge Sort](src/main/java/dev/pushparaj/sorting/MergeSort.java)
+        1. Not In Place
+        1. Stable
+        1. Best Case - O((1/2)(nlogn))
+        1. Average Case - O(nlogn)
+        1. Worst Case - O(nlogn)
+        1. Space complexity - O(n)
+    1. [Quick Sort](src/main/java/dev/pushparaj/sorting/QuickSort.java)
+        1. In place
+        1. Not Stable
+        1. Average Case - O(nlong)
+        1. Worst Case - O(n^2)
+        1. Space Complexity - O(1)

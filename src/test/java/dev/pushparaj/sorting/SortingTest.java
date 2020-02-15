@@ -83,5 +83,25 @@ public class SortingTest extends BaseTest {
         ShellSort.sort(sortedFive);
         ShellSort.sort(sortedSix);
     }
+
+    @Test
+    public void mergeSort() {
+        MergeSort.sort(sortedOne);
+        MergeSort.sort(sortedTwo);
+        MergeSort.sort(sortedThree);
+        MergeSort.sort(sortedFour);
+        MergeSort.sort(sortedFive);
+        MergeSort.sort(sortedSix);
+    }
+
+    @Test
+    public void quickSort() {
+        QuickSort.sort(sortedOne);
+        QuickSort.sort(sortedTwo);
+        QuickSort.sort(sortedThree);
+        QuickSort.sort(sortedFour);
+        QuickSort.sort(sortedFive);
+        QuickSort.sort(sortedSix);
+    }
     
 }

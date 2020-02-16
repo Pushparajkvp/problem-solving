@@ -103,5 +103,15 @@ public class SortingTest extends BaseTest {
         QuickSort.sort(sortedFive);
         QuickSort.sort(sortedSix);
     }
+
+    @Test
+    public void heapSort() {
+        HeapSort.sort(sortedOne);
+        HeapSort.sort(sortedTwo);
+        HeapSort.sort(sortedThree);
+        HeapSort.sort(sortedFour);
+        HeapSort.sort(sortedFive);
+        HeapSort.sort(sortedSix);
+    }
     
 }

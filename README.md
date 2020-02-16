@@ -77,6 +77,13 @@
     1. [Quick Sort](src/main/java/dev/pushparaj/sorting/QuickSort.java)
         1. In place
         1. Not Stable
-        1. Average Case - O(nlong)
+        1. Best Case - O(nlogn)
+        1. Average Case - O(nlogn)
         1. Worst Case - O(n^2)
         1. Space Complexity - O(1)
+    1. [Heap Sort](src/main/java/dev/pushparaj/sorting/HeapSort.java)
+        1. In place
+        1. Not Stable
+        1. Best Case - O(n)
+        1. Average Case - O(nlogn)
+        1. Worst Case - O(nlogn)

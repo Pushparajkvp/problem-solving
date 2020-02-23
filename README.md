@@ -87,3 +87,14 @@
         1. Best Case - O(n)
         1. Average Case - O(nlogn)
         1. Worst Case - O(nlogn)
+1. Searching
+    1. [Sequential Search](src/main/java/dev/pushparaj/searching/SequentialSearch.java)
+        1. Worst Case
+            1. Search - O(n)
+            1. Insert - O(n)
+            1. Delete - O(n)
+        1. Average Case
+            1. Search - O(n)
+            1. Insert - O(n)
+            1. Delete - O(n)
+

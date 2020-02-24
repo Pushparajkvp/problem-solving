@@ -97,4 +97,12 @@
             1. Search - O(n)
             1. Insert - O(n)
             1. Delete - O(n)
-
+    1. [Binary Search](src/main/java/dev/pushparaj/searching/BinarySearch.java)
+        1. Worst Case
+            1. Search - O(log(n))
+            1. Insert - O(n)
+            1. Delete - O(n)
+        1. Average Case
+            1. Search - O(log(n))
+            1. Insert - O(n)
+            1. Delete - O(n)

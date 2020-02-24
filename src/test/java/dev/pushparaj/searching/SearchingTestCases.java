@@ -22,14 +22,15 @@ public class SearchingTestCases extends BaseTest {
     }
 
     @Test
-    public void sequentialSearchTest() {
+    public void sequentialAndBinarySearchTest() {
         int randomSearchItem = getRandomNumber(0, 50);
-        assertEquals(SequentialSearch.search(one, randomSearchItem), Arrays.asList(one).indexOf(randomSearchItem));
-        assertEquals(SequentialSearch.search(two, randomSearchItem), Arrays.asList(two).indexOf(randomSearchItem));
-        assertEquals(SequentialSearch.search(three, randomSearchItem), Arrays.asList(three).indexOf(randomSearchItem));
-        assertEquals(SequentialSearch.search(four, randomSearchItem), Arrays.asList(four).indexOf(randomSearchItem));
-        assertEquals(SequentialSearch.search(five, randomSearchItem), Arrays.asList(five).indexOf(randomSearchItem));
-        assertEquals(SequentialSearch.search(six, randomSearchItem), Arrays.asList(six).indexOf(randomSearchItem));
+        assertEquals(SequentialSearch.search(one, randomSearchItem), BinarySearch.search(one, randomSearchItem));
+        assertEquals(SequentialSearch.search(two, randomSearchItem), BinarySearch.search(two, randomSearchItem));
+        assertEquals(SequentialSearch.search(three, randomSearchItem), BinarySearch.search(three, randomSearchItem));
+        assertEquals(SequentialSearch.search(four, randomSearchItem), BinarySearch.search(four, randomSearchItem));
+        assertEquals(SequentialSearch.search(five, randomSearchItem), BinarySearch.search(five, randomSearchItem));
+        assertEquals(SequentialSearch.search(six, randomSearchItem), BinarySearch.search(six, randomSearchItem));
     }
+
     
 }

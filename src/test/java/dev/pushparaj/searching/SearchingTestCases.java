@@ -32,5 +32,15 @@ public class SearchingTestCases extends BaseTest {
         assertEquals(SequentialSearch.search(six, randomSearchItem), BinarySearch.search(six, randomSearchItem));
     }
 
+    @Test
+    public void binarySearchTreeTest() {
+        int randomSearchItem = getRandomNumber(0, 50);
+        assertEquals(SequentialSearch.search(one, randomSearchItem), BinarySearchTree.search(one, randomSearchItem));
+        assertEquals(SequentialSearch.search(two, randomSearchItem), BinarySearchTree.search(two, randomSearchItem));
+        assertEquals(SequentialSearch.search(three, randomSearchItem), BinarySearchTree.search(three, randomSearchItem));
+        assertEquals(SequentialSearch.search(four, randomSearchItem), BinarySearchTree.search(four, randomSearchItem));
+        assertEquals(SequentialSearch.search(five, randomSearchItem), BinarySearchTree.search(five, randomSearchItem));
+        assertEquals(SequentialSearch.search(six, randomSearchItem), BinarySearchTree.search(six, randomSearchItem));
+    }
     
 }

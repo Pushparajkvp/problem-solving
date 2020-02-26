@@ -106,3 +106,12 @@
             1. Search - O(log(n))
             1. Insert - O(n)
             1. Delete - O(n)
+    1. [Binary Search Tree](src/main/java/dev/pushparaj/searching/BinarySearchTree.java)
+       1. Worst Case
+          1. Search - O(n)
+          2. Insert - O(n)
+          3. Delete - O(n)
+       2. Average Case
+          1. Search - O(logn)
+          2. Insert - O(logn)
+          3. Delete - sqrt(n)

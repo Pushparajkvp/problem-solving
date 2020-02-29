@@ -32,5 +32,14 @@ public class SearchingTestCases extends BaseTest {
         assertEquals(SequentialSearch.search(six, randomSearchItem), BinarySearch.search(six, randomSearchItem));
     }
 
-    
+    @Test
+    public void hashTableTest() {
+        int randomSearchItem = getRandomNumber(0, 50);
+        assertEquals(SequentialSearch.search(one, randomSearchItem), HashTableSeperateChaining.search(one, randomSearchItem));
+        assertEquals(SequentialSearch.search(two, randomSearchItem), HashTableSeperateChaining.search(two, randomSearchItem));
+        assertEquals(SequentialSearch.search(three, randomSearchItem), HashTableSeperateChaining.search(three, randomSearchItem));
+        assertEquals(SequentialSearch.search(four, randomSearchItem), HashTableSeperateChaining.search(four, randomSearchItem));
+        assertEquals(SequentialSearch.search(five, randomSearchItem), HashTableSeperateChaining.search(five, randomSearchItem));
+        assertEquals(SequentialSearch.search(six, randomSearchItem), HashTableSeperateChaining.search(six, randomSearchItem));
+    }
 }

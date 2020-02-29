@@ -106,3 +106,12 @@
             1. Search - O(log(n))
             1. Insert - O(n)
             1. Delete - O(n)
+    1. [Hash Table](src/main/java/dev/pushparaj/searching/HashTableSeperateChaining.java)
+        1. Worst Case
+            1. Search - O(n)
+            1. Insert - O(n)
+            1. Delete - O(n)
+        1. Average Case (Provided the hash function is uniform)
+            1. Search - O(1)
+            1. Insert - O(1)
+            1. Delete - O(1)

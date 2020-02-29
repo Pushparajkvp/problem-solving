@@ -106,7 +106,6 @@
             1. Search - O(log(n))
             1. Insert - O(n)
             1. Delete - O(n)
-<<<<<<< HEAD
     1. [Hash Table](src/main/java/dev/pushparaj/searching/HashTableSeperateChaining.java)
         1. Worst Case
             1. Search - O(n)
@@ -116,7 +115,6 @@
             1. Search - O(1)
             1. Insert - O(1)
             1. Delete - O(1)
-=======
     1. [Binary Search Tree](src/main/java/dev/pushparaj/searching/BinarySearchTree.java)
        1. Worst Case
           1. Search - O(n)
@@ -126,4 +124,3 @@
           1. Search - O(logn)
           2. Insert - O(logn)
           3. Delete - sqrt(n)
->>>>>>> b327b79818062ed4887bedb594220360bc4f5fe3

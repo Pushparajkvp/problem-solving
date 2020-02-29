@@ -7,10 +7,9 @@ public class BinarySearch {
 
     public static int search(int[] arr, int value) {
         QuickSort.sort(arr);
-
         int left = 0, right = arr.length - 1;
 
-        while(left < right) {
+        while(left <= right) {
             int mid = left + ((right - left) / 2);
             if(arr[mid] == value)
                 return mid;

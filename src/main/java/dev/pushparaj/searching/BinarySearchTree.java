@@ -10,8 +10,9 @@ public class BinarySearchTree {
         //Building the BST (This is not included in the complexity calculation)
         for(int it = 0; it < arr.length; it++)
             add(arr[it], it);
-        
-        return find(value);
+        int result = find(value);
+        rootNode = null;
+        return result;
     }
 
     private static int find(int data) {
@@ -23,6 +24,7 @@ public class BinarySearchTree {
         }
         return -1;
     }
+
     private static void add(int data, int index) {
         if(rootNode == null) {
             rootNode = new Node(data, index);

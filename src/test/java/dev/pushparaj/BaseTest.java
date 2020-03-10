@@ -68,4 +68,18 @@ public class BaseTest {
         }
         return clonedTarget.size() == 0;
     }
+
+    protected int[] removeDuplicates(int[] arr) {
+        HashSet<Integer> set = new HashSet<>();
+        for(int it = 0; it < arr.length; it++) {
+            set.add(arr[it]);
+        }
+        int[] newArr = new int[set.size()];
+        int index = -1;
+        Iterator iterator = set.iterator(); 
+        while(iterator.hasNext()){
+            newArr[++index] = (int) iterator.next();
+        }
+        return newArr;
+    }
 }

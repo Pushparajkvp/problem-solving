@@ -13,23 +13,29 @@ public class SearchingTestCases extends BaseTest {
     
     @BeforeEach
     public void setup() {
-        one = getRandomNumberArray(-200, 200, getRandomNumber(0, 50));
-        two = getRandomNumberArray(-200, 200, getRandomNumber(0, 50));
-        three = getRandomNumberArray(-200, 200, getRandomNumber(0, 50));
-        four = getRandomNumberArray(-200, 200, getRandomNumber(0, 50));
-        five = getRandomNumberArray(-200, 200, getRandomNumber(0, 50));
-        six = getRandomNumberArray(-200, 200, getRandomNumber(0, 50));
+        one = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
+        two = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
+        three = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
+        four = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
+        five = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
+        six = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
+        one = removeDuplicates(one);
+        two = removeDuplicates(two);
+        three = removeDuplicates(three);
+        four = removeDuplicates(four);
+        five = removeDuplicates(five);
+        six = removeDuplicates(six);
     }
 
     @Test
     public void sequentialAndBinarySearchTest() {
         int randomSearchItem = getRandomNumber(0, 50);
-        assertEquals(SequentialSearch.search(one, randomSearchItem), BinarySearch.search(one, randomSearchItem));
-        assertEquals(SequentialSearch.search(two, randomSearchItem), BinarySearch.search(two, randomSearchItem));
-        assertEquals(SequentialSearch.search(three, randomSearchItem), BinarySearch.search(three, randomSearchItem));
-        assertEquals(SequentialSearch.search(four, randomSearchItem), BinarySearch.search(four, randomSearchItem));
-        assertEquals(SequentialSearch.search(five, randomSearchItem), BinarySearch.search(five, randomSearchItem));
-        assertEquals(SequentialSearch.search(six, randomSearchItem), BinarySearch.search(six, randomSearchItem));
+        assertEquals(BinarySearch.search(one, randomSearchItem), SequentialSearch.search(one, randomSearchItem));
+        assertEquals(BinarySearch.search(two, randomSearchItem), SequentialSearch.search(two, randomSearchItem));
+        assertEquals(BinarySearch.search(three, randomSearchItem), SequentialSearch.search(three, randomSearchItem));
+        assertEquals(BinarySearch.search(four, randomSearchItem), SequentialSearch.search(four, randomSearchItem));
+        assertEquals(BinarySearch.search(five, randomSearchItem), SequentialSearch.search(five, randomSearchItem));
+        assertEquals(BinarySearch.search(six, randomSearchItem), SequentialSearch.search(six, randomSearchItem));
     }
 
     @Test

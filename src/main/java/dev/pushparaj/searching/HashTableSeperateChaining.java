@@ -5,7 +5,6 @@ import java.util.*;
 public class HashTableSeperateChaining {
 
     public static int search(int[] arr, int value) {
-
         HashMapImpl<Integer, Integer> map = new HashMapImpl<>();
         for(int it = 0; it < arr.length; it++){
             map.set(Integer.valueOf(arr[it]), Integer.valueOf(it));
@@ -37,6 +36,7 @@ public class HashTableSeperateChaining {
             LinkedList<Entry<K,V>> list = table[index];
             if(list == null){
                 list = new LinkedList();
+                table[index] = list;
             } else {
                 for(Entry<K,V> entry : list) {
                     if(entry.key == key){
@@ -100,6 +100,25 @@ public class HashTableSeperateChaining {
                 this.key = key;
                 this.hash = key.hashCode();
             }
+
+            @Override
+            public String toString() {
+                return key + " -> " + value;
+            }
+        }
+
+        @Override
+        public String toString() {
+            StringBuilder sb = new StringBuilder();
+            for(int it = 0; it < table.length; it++) {
+                LinkedList<Entry<K,V>> list = table[it];
+                if(list != null) {
+                    for(Entry<K,V> entry : list) {
+                        sb.append(entry.toString() + "\n");
+                    }
+                }
+            }
+            return sb.toString();
         }
     }
     

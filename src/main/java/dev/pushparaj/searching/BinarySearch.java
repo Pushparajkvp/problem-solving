@@ -7,7 +7,6 @@ public class BinarySearch {
 
     public static int search(int[] arr, int value) {
         QuickSort.sort(arr);
-        System.out.println("Sorted Array ->  " + Arrays.toString(arr));
         int left = 0, right = arr.length - 1;
 
         while(left <= right) {

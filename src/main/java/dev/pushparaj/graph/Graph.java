@@ -61,12 +61,12 @@ public abstract class Graph<T, D extends Comparable<D>>{
 
     
 
-    protected void addVertex(T vertex);
-    protected void deleteVertex(T vertex);
-    protected boolean containsVertex(T vertex);
+    protected abstract void addVertex(T vertex);
+    protected abstract void deleteVertex(T vertex);
+    protected abstract boolean containsVertex(T vertex);
 
-    protected void addOrUpdateEdge(T source, T destination, D distance);
-    protected void deleteEdge(T source, T destination);
-    protected void updateEdge(T source, T destination, D distance);
-    protected boolean containsEdge(T source, T destination);
+    protected abstract void addOrUpdateEdge(T source, T destination, D distance);
+    protected abstract void updateEdge(T source, T destination, D distance);
+    protected abstract void deleteEdge(T source, T destination);
+    protected abstract boolean containsEdge(T source, T destination);
 }

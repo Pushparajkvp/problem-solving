@@ -76,4 +76,14 @@ public class InitialTestCases extends BaseTest {
         };
         MatrixPathFinding.printPaths(matrix, 0, 0, 3, 3);
     }
+
+    @Test
+    public void boggleTest() {
+       String dictionary[] = {"GEEKS", "FOR", "QUIZ", "GO"};
+       char boggle[][]   = {{'G','I','Z'},
+                       {'U','E','K'},
+                       {'Q','S','E'}};
+        
+        Boggle.find(boggle, dictionary);
+    }
 }

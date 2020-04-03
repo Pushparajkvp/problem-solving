@@ -99,4 +99,20 @@ public class InitialTestCases extends BaseTest {
         TreePrinter.printNode(root);
         BottomViewOfTree.print(root);
     }
+
+    @Test
+    public void cloneBinaryTreeTest() {
+        Node root = new Node(10);
+        root.left = new Node(5);
+        root.left.left = new Node(2);
+        root.left.right = new Node(7);
+        root.right = new Node(20);
+        root.right.randomPointer = root.left;
+        root.right.left = new Node(15);
+        root.right.right = new Node(25);
+        root.right.left.randomPointer = root.right.right;
+        root.randomPointer = root.right.right;
+        TreePrinter.printNode(root);
+        CloneBinaryTree.clone(root);
+    }
  }

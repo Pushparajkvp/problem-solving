@@ -115,4 +115,10 @@ public class InitialTestCases extends BaseTest {
         TreePrinter.printNode(root);
         CloneBinaryTree.clone(root);
     }
+
+    @Test
+    public void combinationSumTest() {
+        int[] arr = {2, 4, 8, 6, 6, 2};
+        CombinationSum.find(arr, 8);
+    }
  }

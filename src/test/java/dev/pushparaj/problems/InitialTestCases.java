@@ -121,4 +121,10 @@ public class InitialTestCases extends BaseTest {
         int[] arr = {2, 4, 8, 6, 6, 2};
         CombinationSum.find(arr, 8);
     }
+
+    @Test
+    public void connectRolesTest() {
+        int[] arr = {2, 4, 8, 6, 6, 2};
+        ConnectRopes.connect(arr);
+    }
  }

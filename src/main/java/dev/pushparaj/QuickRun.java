@@ -9,7 +9,6 @@ public class QuickRun {
 
     public static void run() {
         
-    }   
-
+    }
 
 }

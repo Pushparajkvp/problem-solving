@@ -6,7 +6,7 @@ import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 import dev.pushparaj.BaseTest;
-import dev.pushparaj.problems.*;
+import dev.pushparaj.utils.*;
 
 public class InitialTestCases extends BaseTest {
 

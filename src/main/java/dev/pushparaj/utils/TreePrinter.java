@@ -1,4 +1,4 @@
-package dev.pushparaj.problems;
+package dev.pushparaj.utils;
 
 import java.util.*;
 
@@ -88,5 +88,4 @@ public class TreePrinter {
 
         return true;
     }
-   
 }

@@ -7,6 +7,8 @@ import java.util.*;
 * If such arrangement is not possible, it must rearrange it as the lowest possible order (ie, sorted in ascending order).
 * The replacement must be in-place and use only constant extra memory.
 * Here are some examples. Inputs are in the left-hand column and its corresponding outputs are in the right-hand column.
+*    1. Time Complexity - O(n)
+*    2. Space Complexity - O(1)
 */
 
 public class NextPermutation {

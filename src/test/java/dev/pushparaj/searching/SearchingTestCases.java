@@ -13,12 +13,12 @@ public class SearchingTestCases extends BaseTest {
     
     @BeforeEach
     public void setup() {
-        one = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
-        two = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
-        three = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
-        four = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
-        five = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
-        six = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000));
+        one = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000000));
+        two = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000000));
+        three = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000000));
+        four = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000000));
+        five = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000000));
+        six = getRandomNumberArray(-200, 200, getRandomNumber(0, 1000000));
         one = removeDuplicates(one);
         two = removeDuplicates(two);
         three = removeDuplicates(three);

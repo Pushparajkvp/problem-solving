@@ -2,6 +2,16 @@ package dev.pushparaj.searching;
 
 import java.util.*;
 
+/*
+1. Worst Case
+        1. Search - O(n)
+        2. Insert - O(n)
+        3. Delete - O(n)
+2. Average Case
+    1. Search - O(logn)
+    2. Insert - O(logn)
+    3. Delete - sqrt(n)
+*/
 public class BinarySearchTree {
 
     private static Node rootNode;

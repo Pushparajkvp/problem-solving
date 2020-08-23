@@ -6,6 +6,8 @@ import java.util.*;
 * Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? 
 * Find all unique triplets in the array which gives the sum of zero.
 * Note: The solution set must not contain duplicate triplets.
+*    1. Time Complexity - O(n^2)
+*    2. Space Complexsity - O(1)
 */
 
 public class ThreeSum {

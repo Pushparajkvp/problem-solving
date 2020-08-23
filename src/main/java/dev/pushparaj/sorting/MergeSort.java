@@ -2,6 +2,14 @@ package dev.pushparaj.sorting;
 
 import java.util.*;
 
+/*
+1. Not In Place
+2. Stable
+3. Best Case - O((1/2)(nlogn))
+4. Average Case - O(nlogn)
+5. Worst Case - O(nlogn)
+6. Space complexity - O(n)
+*/
 public class MergeSort {
 
     private static void merge(int[] arr,int[] temp, int low, int mid, int high) {

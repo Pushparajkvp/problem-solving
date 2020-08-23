@@ -1,7 +1,16 @@
 package dev.pushparaj.searching;
 
 import java.util.*;
-
+/*
+1. Worst Case
+    1. Search - O(n)
+    2. Insert - O(n)
+    3. Delete - O(n)
+2. Average Case (Provided the hash function is uniform)
+    1. Search - O(1)
+    2. Insert - O(1)
+    3. Delete - O(1)
+*/
 public class HashTableSeperateChaining {
 
     public static int search(int[] arr, int value) {

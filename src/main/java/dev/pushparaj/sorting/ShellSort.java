@@ -2,6 +2,13 @@ package dev.pushparaj.sorting;
 
 import java.util.*;
 
+/*
+1. In Place
+2. Stable
+3. Best Case - O(nlogn)
+4. Average - O(nlogn)
+5. Worst - O(n^2)
+*/
 public class ShellSort {
 
     public static void sort(int[] arr) {

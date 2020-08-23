@@ -2,6 +2,13 @@ package dev.pushparaj.sorting;
 
 import java.util.*;
 
+/*
+1. In place
+2. Not Stable
+3. Best Case - O(n)
+4. Average Case - O(nlogn)
+5. Worst Case - O(nlogn)
+*/
 public class HeapSort {
 
     static int heapSize = 0;

@@ -2,6 +2,14 @@ package dev.pushparaj.sorting;
 
 import java.util.*;
 
+/*
+1. In place
+2. Not Stable
+3. Best Case - O(nlogn)
+4. Average Case - O(nlogn)
+5. Worst Case - O(n^2)
+6. Space Complexity - O(1)
+*/
 public class QuickSort {
 
     private static int partition(int[] arr, int low, int high) {

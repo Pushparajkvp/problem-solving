@@ -8,6 +8,8 @@ import java.util.*;
 * You are given a target value to search. If found in the array return its index, otherwise return -1.
 * You may assume no duplicate exists in the array.
 * Your algorithm's runtime complexity must be in the order of O(log n).
+*    1. Time Complexity - O(logn)
+*    2. Space Complexity - O(1)
 */
 
 public class SearchInRotatedSortedArray {

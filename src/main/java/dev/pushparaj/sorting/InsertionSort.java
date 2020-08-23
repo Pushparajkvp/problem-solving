@@ -2,6 +2,14 @@ package dev.pushparaj.sorting;
 
 import java.util.*;
 
+/*
+1. In Place
+2. Stable
+3. Best Case - O(n)
+4. Average Case - O(1/4 * n^2)
+5. Worst Case - O(1/2 * n^2)
+6. Use for small or partially sorted arrays
+*/
 public class InsertionSort {
 
     public static void sort(int[] arr) {

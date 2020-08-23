@@ -2,6 +2,13 @@ package dev.pushparaj.sorting;
 
 import java.util.*;
 
+/*
+ 1. In place
+2. Not stable
+3. Best case - O(1/2 * n^2)
+4. Average Case - O(1/2 * n^2)
+5. Worst Case - O(1/2 * n^2)
+*/
 public class SelectionSort {
 
     public static void sort(int[] arr) {

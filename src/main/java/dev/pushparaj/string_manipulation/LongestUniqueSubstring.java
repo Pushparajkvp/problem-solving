@@ -35,7 +35,7 @@ Constraints:
 s consists of English letters, digits, symbols and spaces.
 */
 
-class Solution {
+class LongestUniqueSubstring {
     public int lengthOfLongestSubstring(String s) {
         int max = 0, start = 0;
         int[] dic = new int[128];
